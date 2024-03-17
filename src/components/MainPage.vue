@@ -2,8 +2,10 @@
     <div class="home">
         <Navbar />
         <div class="content text-center m-5">
-            <p class="title" >Picture Perfect Memories Awaits!</p>
-            <p class="sub-main fw-light">Unlock the Magic of Photography. Immerse Yourself in Our Studio's Captivating
+            <p class="title" data-aos="flip-right" data-aos-offset="300" data-aos-delay="50"
+                    data-aos-easing="ease-in-out">Picture Perfect Memories Awaits!</p>
+            <p class="sub-main fw-light" data-aos="fade-down" data-aos-offset="300" data-aos-delay="50"
+                    data-aos-easing="ease-in-out">Unlock the Magic of Photography. Immerse Yourself in Our Studio's Captivating
                 Atmosphere.
                 Create Lasting Memories with Professional Portraits and Unforgettable Shots.</p>
         </div>
@@ -13,14 +15,16 @@
         <div class="services">
             <br>
             <div class="text-center">
-                <p class="title fs-1 fw-bold">OUR SERVICES</p>
+                <p class="title fs-1 fw-bold" data-aos="flip-right" data-aos-offset="300" data-aos-delay="50"
+                    data-aos-easing="ease-in-out">OUR SERVICES</p>
                 <hr>
                 <br>
             </div>
             <div class="container">
                 <div class="row align-items-center">
                     <div class="col-sm-1 col-md-4 col-lg-4">
-                        <div class="card bg-transparent text-bg-dark border-0" v-animateonscroll="{ enterClass: 'fadein', leaveClass: 'fadeout' }">
+                        <div class="card bg-transparent text-bg-dark border-0" data-aos="zoom-out" data-aos-offset="300"
+                            data-aos-delay="50" data-aos-easing="ease-in-out">
                             <video class="video" ref="video" autoplay loop muted>
                                 <source src="@/assets/images/prod-photo.mp4" type="video/mp4">
                             </video>
@@ -35,7 +39,8 @@
                         </div>
                     </div>
                     <div class="col-sm-1 col-md-4 col-lg-4">
-                        <div class="card bg-transparent text-bg-dark border-0">
+                        <div class="card bg-transparent text-bg-dark border-0" data-aos="zoom-out" data-aos-offset="300"
+                            data-aos-delay="50" data-aos-easing="ease-in-out">
                             <video class="video" ref="video" autoplay loop muted>
                                 <source src="@/assets/images/prod-vid.mp4" type="video/mp4">
                             </video>
@@ -49,8 +54,9 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-sm-1 col-md-4 col-lg-4" >
-                        <div class="card bg-transparent text-bg-dark border-0" >
+                    <div class="col-sm-1 col-md-4 col-lg-4">
+                        <div class="card bg-transparent text-bg-dark border-0" data-aos="zoom-out" data-aos-offset="300"
+                            data-aos-delay="50" data-aos-easing="ease-in-out">
                             <video class="video" ref="video" autoplay loop muted>
                                 <source src="@/assets/images/prod-cin.mp4" type="video/mp4">
                             </video>
@@ -77,7 +83,8 @@
                     <button type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="2"
                         aria-label="Slide 3"></button>
                 </div>
-                <div class="carousel-inner">
+                <div class="carousel-inner" data-aos="flip-right" data-aos-offset="300" data-aos-delay="50"
+                    data-aos-easing="ease-in-out">
                     <div class="carousel-item active">
                         <div class="container">
                             <div class="text-center">
@@ -126,9 +133,11 @@
             <div class="flex-container">
                 <div class="row">
                     <div class=" col-md-6 col-lg-5 d-none d-sm-block text-center">
-                        <img src="@/assets/images/studio.jpg" alt="">
+                        <img src="@/assets/images/studio.jpg" alt="" data-aos="flip-right" data-aos-offset="300"
+                            data-aos-delay="50" data-aos-easing="ease-in-out">
                     </div>
-                    <div class="col-md-6 col-lg-7">
+                    <div class="col-md-6 col-lg-7" data-aos="zoom-in" data-aos-offset="300" data-aos-delay="50"
+                    data-aos-easing="ease-in-out">
                         <p class="title fs-1 fw-bold" style="letter-spacing: 3px;">ABOUT US</p>
                         <p class="main fw-light">At YourStudio, we're the visual storytellers who turn moments into
                             memories. With an artful
@@ -146,12 +155,14 @@
             <div class="container">
                 <div class="row align-items-center">
                     <div class="col-md-5 col-lg-6  d-none d-sm-block">
-                        <div class="background">
+                        <div class="background" data-aos="fade-left" data-aos-offset="300" data-aos-delay="50"
+                    data-aos-easing="ease-in-out">
                             <img src="@/assets/images/bg-2.jpg" alt="">
                         </div>
                     </div>
                     <div class=" col-sm-12 col-md-4 col-lg-2 ">
-                        <div class="form animation-duration-1000 animation-ease-in-out" v-animateonscroll="{ enterClass: 'flipleft', leaveClass: 'fadeout' }">
+                        <div class="form" data-aos="fade-right" data-aos-offset="300" data-aos-delay="50"
+                    data-aos-easing="ease-in-out">
                             <div class="container">
                                 <p class="title fs-2 fw-bold" style="letter-spacing: 3px;">Contact Us</p>
                                 <p class="main fw-light">Ready to capture your special moments? Connect with YourStudio
@@ -183,8 +194,7 @@
                         <button class="btn btn-outline-light"><i class="bi bi-twitter"></i>
                         </button>
                         <span style="margin: 0 10px;"></span>
-                        <button class="btn btn-outline-light"><i
-                                class="bi bi-instagram"></i>
+                        <button class="btn btn-outline-light"><i class="bi bi-instagram"></i>
                         </button>
                     </div>
                     <p class="fw-light">© YourStuio Photography 2020. Website Design by Harold Limpiado</p>
@@ -197,4 +207,10 @@
 
 <script setup>
 import Navbar from '../components/Navbar.vue'
+import { onMounted } from "vue";
+import AOS from "aos";
+
+onMounted(() => {
+    AOS.init();
+})
 </script>

@@ -47,6 +47,11 @@ nav {
 }
 
 /* Services CSS */
+.services{
+    padding-top: 100px;
+    margin-bottom: 100px;
+}
+
 .services .title {
     font-size: 35px;
     letter-spacing: 3px;
@@ -79,8 +84,8 @@ hr {
 .comments {
     background-color: #11212c;
     height: 500px;
-    margin-top: 100px;
-    margin: 2rem;
+    margin-top: 100px 0;
+    margin: 100px 0 100px 0;
 }
 
 .comments .container {
@@ -106,7 +111,7 @@ hr {
 .about {
     padding: 3rem;
     margin-top: 4rem;
-    margin-bottom: 4rem;
+    margin-bottom: 150px;
 }
 
 .about .main {
@@ -122,7 +127,7 @@ hr {
 /* Contact Us CSS */
 .contact {
     background-color:#11212c;
-    margin-bottom: 7rem;
+    margin-bottom: 200px;
 }
 
 .contact .form {
@@ -153,6 +158,10 @@ hr {
 
     .home .sub-main {
         font-size: 25px;
+    }
+
+    .services{
+        margin-bottom: 150px;
     }
 
     .services .title {
@@ -216,7 +225,8 @@ hr {
     }
 
     .services video {
-        height: 55vw;
+        height: 50vw;
+        object-fit: cover;
     }
 
     .about {
@@ -267,13 +277,17 @@ hr {
         padding: 100px;
     }
 
+    .services video{
+        margin-bottom: 30px;
+    }
+
     .services .btn {
         border-radius: 0 !important;
         width: 10vw;
     }
 
     .comments {
-        margin: 2rem 5rem 2rem 5rem;
+        margin-bottom: 150px;
     }
 
     .comments .title {
