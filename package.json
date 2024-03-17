@@ -9,11 +9,12 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@videojs-player/vue": "^1.0.0",
+    "@vueuse/motion": "^2.1.0",
     "bootstrap": "^5.3.3",
     "bootstrap-icons": "^1.11.3",
+    "intersection-observer": "^0.12.2",
     "pinia": "^2.1.7",
-    "video.js": "^8.10.0",
+    "primevue": "^3.50.0",
     "vue": "^3.4.15",
     "vue-router": "^4.2.5"
   },
