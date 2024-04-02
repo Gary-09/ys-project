@@ -3,9 +3,10 @@
         <Navbar />
         <div class="content text-center m-5">
             <p class="title" data-aos="flip-right" data-aos-offset="300" data-aos-delay="50"
-                    data-aos-easing="ease-in-out">Picture Perfect Memories Awaits!</p>
+                data-aos-easing="ease-in-out">Picture Perfect Memories Awaits!</p>
             <p class="sub-main fw-light" data-aos="fade-down" data-aos-offset="300" data-aos-delay="50"
-                    data-aos-easing="ease-in-out">Unlock the Magic of Photography. Immerse Yourself in Our Studio's Captivating
+                data-aos-easing="ease-in-out">Unlock the Magic of Photography. Immerse Yourself in Our Studio's
+                Captivating
                 Atmosphere.
                 Create Lasting Memories with Professional Portraits and Unforgettable Shots.</p>
         </div>
@@ -30,10 +31,10 @@
                             </video>
                             <div class="card-body">
                                 <h5 class="card-title fw-bold">Photography</h5>
-                                <p class="card-text">At YourStudio, we transform moments into timeless art through
-                                    creative
-                                    and precise Photography services. Let us frame your world and preserve memories
-                                    beautifully.</p>
+                                <p class="card-text">
+                                    At YourStudio, we specialize in transforming moments into timeless art through our
+                                    creative Photography services, expertly framing your world and preserving memories
+                                    with exquisite beauty and precision.</p>
                                 <button type="button" class="btn learn-more btn-outline-light">Learn More</button>
                             </div>
                         </div>
@@ -137,7 +138,7 @@
                             data-aos-delay="50" data-aos-easing="ease-in-out">
                     </div>
                     <div class="col-md-6 col-lg-7" data-aos="zoom-in" data-aos-offset="300" data-aos-delay="50"
-                    data-aos-easing="ease-in-out">
+                        data-aos-easing="ease-in-out">
                         <p class="title fs-1 fw-bold" style="letter-spacing: 3px;">ABOUT US</p>
                         <p class="main fw-light">At YourStudio, we're the visual storytellers who turn moments into
                             memories. With an artful
@@ -156,13 +157,13 @@
                 <div class="row align-items-center">
                     <div class="col-md-5 col-lg-6  d-none d-sm-block">
                         <div class="background" data-aos="fade-left" data-aos-offset="300" data-aos-delay="50"
-                    data-aos-easing="ease-in-out">
+                            data-aos-easing="ease-in-out">
                             <img src="@/assets/images/bg-2.jpg" alt="">
                         </div>
                     </div>
                     <div class=" col-sm-12 col-md-4 col-lg-2 ">
                         <div class="form" data-aos="fade-right" data-aos-offset="300" data-aos-delay="50"
-                    data-aos-easing="ease-in-out">
+                            data-aos-easing="ease-in-out">
                             <div class="container">
                                 <p class="title fs-2 fw-bold" style="letter-spacing: 3px;">Contact Us</p>
                                 <p class="main fw-light">Ready to capture your special moments? Connect with YourStudio
