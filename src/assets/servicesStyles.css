@@ -1,0 +1,19 @@
+.servicesPage {
+    background-color: #11212c;
+    color: white;
+}
+
+@media screen and (min-width: 1024px) {
+    .servicesPage .container {
+        padding: 100px;
+    }
+
+    .servicesPage .card {
+        border: 1px solid white !important;
+        height: 100px;
+        background-image: url("../assets/images/bg-1.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+    }
+}
