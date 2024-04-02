@@ -27,7 +27,7 @@ nav {
 .home {
     background-image: url("../assets/images/bg-1.png");
     background-size: cover;
-    min-height: 105vh;
+    min-height: 150vh;
     background-position: center;
     color: white;
 }
