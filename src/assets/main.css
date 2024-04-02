@@ -27,7 +27,7 @@ nav {
 .home {
     background-image: url("../assets/images/bg-1.png");
     background-size: cover;
-    min-height: 100vh;
+    min-height: 105vh;
     background-position: center;
     color: white;
 }
@@ -48,7 +48,7 @@ nav {
 
 /* Services CSS */
 .services{
-    /* padding-top: 100px; */
+    padding-top: 100px;
     margin-bottom: 100px;
 }
 
