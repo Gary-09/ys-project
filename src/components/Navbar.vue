@@ -20,7 +20,9 @@
                                 Services
                             </a>
                             <ul class="dropdown-menu">
-                                <li><a class="dropdown-item mb-2 mt-2" href="#">Photography</a></li>
+                                <li>
+                                    <router-link to="/services/photography" class="dropdown-item mb-2 mt-2">Photography</router-link>
+                                </li>
                                 <li><a class="dropdown-item mb-2" href="#">Videography</a></li>
                                 <li><a class="dropdown-item mb-2" href="#">Cinematography</a></li>
                             </ul>

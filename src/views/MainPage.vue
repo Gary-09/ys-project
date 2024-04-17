@@ -9,6 +9,9 @@
                 Captivating
                 Atmosphere.
                 Create Lasting Memories with Professional Portraits and Unforgettable Shots.</p>
+            <button type="button" class="btn learn-more btn-light mt-2" style="border-radius: 20px !important;
+        width: 15vw; height: 8vh;" data-aos="flip-right" data-aos-offset="300" data-aos-delay="50"
+                data-aos-easing="ease-in-out">Get Started</button>
         </div>
     </div>
 
@@ -18,7 +21,7 @@
             <div class="text-center">
                 <p class="title fs-1 fw-bold" data-aos="flip-right" data-aos-offset="300" data-aos-delay="50"
                     data-aos-easing="ease-in-out">OUR SERVICES</p>
-                <hr>
+                <br>
                 <br>
             </div>
             <div class="container">
@@ -94,7 +97,7 @@
                                     photos to the
                                     cinematic video, they exceeded our expectations. Professional, creative, and simply
                                     amazing!"</p>
-                                <img src="@/assets/images/face-1.jpg">
+                                <img src="../assets/images/face-1.jpg">
                                 <p class="fs-5 my-2">Sarah L.</p>
                             </div>
                         </div>
@@ -108,7 +111,7 @@
                                     attention to detail in both photography and videography is unparalleled. Highly
                                     recommend!"
                                 </p>
-                                <img src="@/assets/images/face-2.jpg">
+                                <img src="../assets/images/face-2.jpg">
                                 <p class="fs-5 my-2">Andrew M.</p>
                             </div>
                         </div>
@@ -121,7 +124,7 @@
                                     the essence
                                     of the moment in every shot. Our wedding photos and video are nothing short of
                                     magical. Thank you!"</p>
-                                <img src="@/assets/images/face-3.jpg">
+                                <img src="../assets/images/face-3.jpg">
                                 <p class="fs-5 my-2">Marcus F.</p>
                             </div>
                         </div>
@@ -134,7 +137,7 @@
             <div class="flex-container">
                 <div class="row">
                     <div class=" col-md-6 col-lg-5 d-none d-sm-block text-center">
-                        <img src="@/assets/images/studio.jpg" alt="" data-aos="flip-right" data-aos-offset="300"
+                        <img src="../assets/images/studio.jpg" alt="" data-aos="flip-right" data-aos-offset="300"
                             data-aos-delay="50" data-aos-easing="ease-in-out">
                     </div>
                     <div class="col-md-6 col-lg-7" data-aos="zoom-in" data-aos-offset="300" data-aos-delay="50"
@@ -158,7 +161,7 @@
                     <div class="col-md-5 col-lg-6  d-none d-sm-block">
                         <div class="background" data-aos="fade-left" data-aos-offset="300" data-aos-delay="50"
                             data-aos-easing="ease-in-out">
-                            <img src="@/assets/images/bg-2.jpg" alt="">
+                            <img src="../assets/images/bg-2.jpg" alt="">
                         </div>
                     </div>
                     <div class=" col-sm-12 col-md-4 col-lg-2 ">

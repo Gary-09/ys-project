@@ -27,7 +27,7 @@ nav {
 .home {
     background-image: url("../assets/images/bg-1.png");
     background-size: cover;
-    min-height: 150vh;
+    min-height: 100vh;
     background-position: center;
     color: white;
 }
@@ -153,11 +153,11 @@ hr {
         margin: 100px !important;
     }
     .home .title {
-        font-size: 55px;
+        font-size: 35px;
     }
 
     .home .sub-main {
-        font-size: 25px;
+        font-size: 20px;
     }
 
     .services{
@@ -219,7 +219,21 @@ hr {
     }
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1536px) {
+    .home .content {
+        margin: 100px !important;
+    }
+
+    .home .title {
+        font-size: 60px;
+        color: #f4eded;
+    }
+    
+    .home .sub-main {
+        font-size: 30px;
+    }
+    
+
     .services .card-body {
         padding: 0
     }
@@ -257,15 +271,11 @@ hr {
     }
 }
 
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1920px) {
     .home .content {
         margin: 180px !important;
     }
     .home .title {
-        font-size: 60px;
-    }
-
-    .services .title {
         font-size: 60px;
     }
 
@@ -275,6 +285,10 @@ hr {
 
     .services {
         padding: 100px;
+    }
+
+    .services .title {
+        font-size: 60px;
     }
 
     .services video{

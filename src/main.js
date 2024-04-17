@@ -1,5 +1,5 @@
 import './assets/main.css'
-import './assets/servicesStyles.css'
+import './assets/photographyStyles.css'
 import "bootstrap/dist/css/bootstrap.min.css"
 import "bootstrap"
 import "bootstrap-icons/font/bootstrap-icons.css"
