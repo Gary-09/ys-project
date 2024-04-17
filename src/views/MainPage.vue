@@ -10,7 +10,7 @@
                 Atmosphere.
                 Create Lasting Memories with Professional Portraits and Unforgettable Shots.</p>
             <button type="button" class="btn learn-more btn-light mt-2" style="border-radius: 20px !important;
-        width: 15vw; height: 8vh;" data-aos="flip-right" data-aos-offset="300" data-aos-delay="50"
+        width: 15vw; height: 8vh;" data-aos="flip-right"
                 data-aos-easing="ease-in-out">Get Started</button>
         </div>
     </div>
@@ -21,8 +21,8 @@
             <div class="text-center">
                 <p class="title fs-1 fw-bold" data-aos="flip-right" data-aos-offset="300" data-aos-delay="50"
                     data-aos-easing="ease-in-out">OUR SERVICES</p>
-                <br>
-                <br>
+                <hr>
+                <br
             </div>
             <div class="container">
                 <div class="row align-items-center">
